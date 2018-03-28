@@ -57,11 +57,8 @@ class ttlb_analyzer:
         plt.figure(figsize=(12,12))
         plt.scatter(ttlb_values, ttlb_percentages, c=color_codes)
         
-        #barlist = plt.bar(ttlb_values, ttlb_percentages, width = 0.25)
         #setting a limit on the x-axis
         plt.xlim(0,max(ttlb_values))
-        #for i in range (0, len(barlist)):
-            #barlist[i].set_color(color_codes[i])
             
         #adding labels based on color
         red_patch = mpatches.Patch(color='red', label='>100K')
