@@ -8,9 +8,10 @@ Download the package containing the source code and the extract the folder to a 
 1) Create an analyzer class with methods to visualize the data.
 2) Retrieve relevant data from the csv file.
 3) Initialize the analyzer class with object sizes and time to last bytes.
-4) Generate a list containing color codes based on object size classes by calling the create_classes() method in the analyzer class.
-5) Calculate percentage of time to last byte in sample in a list and generate separate lists with the corresponding classification and time to last byte values.
-6) Generate a scatter plot with the appropriate color coding and add the corresponding labels.
+4) Call plot_distribution() to visualize the data.
+  * Generate a list containing color codes based on object size classes by calling create_classes().
+  * Calculate percentage of time to last byte in sample in a list and generate separate lists with the corresponding classification and time to last byte values
+  * Generate a scatter plot with the appropriate color coding and add the corresponding labels.
 
 ### Scatter plot vs Bar graph
 While the desired outcome was in the form of a bar graph, the large number of data points was hiding time to last byte values with small percentages (values that occured few times in the sample). The scatter plot provided a clear visual representation where all the data points could be visualized.
