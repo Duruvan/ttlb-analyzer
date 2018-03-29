@@ -13,7 +13,7 @@ Download the package containing the source code and the extract the folder to a 
 6) Generate a scatter plot with the appropriate color coding and add the corresponding labels.
 
 ### Scatter plot vs Bar graph
-While the desired outcome was in the form of a bar graph, due to the number of data points, time to last byte values with small percentages were being hidden. The scatter plot provided a clear visual representation where all the data points could be visualized.
+While the desired outcome was in the form of a bar graph, the large number of data points was hiding time to last byte values with small percentages (values that occured few times in the sample). The scatter plot provided a clear visual representation where all the data points could be visualized.
 
 ## Main methods
 
