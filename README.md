@@ -8,7 +8,7 @@ Download the package containing the source code and the extract the folder to a 
 1) Create an analyzer class with methods to visualize the data.
 2) Retrieve relevant data from the csv file.
 3) Initialize the analyzer class with object sizes and time to last bytes.
-4) Call plot_distribution() to visualize the data.
+4) Call plot_distribution() to visualize the data:
   * Generate a list containing color codes based on object size classes by calling create_classes().
   * Calculate percentage of time to last byte in sample in a list and generate separate lists with the corresponding classification and time to last byte values
   * Generate a scatter plot with the appropriate color coding and add the corresponding labels.
